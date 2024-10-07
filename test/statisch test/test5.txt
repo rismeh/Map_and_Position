@@ -1,0 +1,20 @@
+************* Module pose2car.pose2car
+pose2car.py:18:0: C0301: Line too long (107/100) (line-too-long)
+pose2car.py:19:0: C0301: Line too long (115/100) (line-too-long)
+pose2car.py:42:0: C0301: Line too long (106/100) (line-too-long)
+pose2car.py:51:0: C0301: Line too long (148/100) (line-too-long)
+pose2car.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+pose2car.py:6:0: E0401: Unable to import 'marvelmind_interfaces.msg' (import-error)
+pose2car.py:21:8: C0103: Attribute name "x" doesn't conform to snake_case naming style (invalid-name)
+pose2car.py:22:8: C0103: Attribute name "y" doesn't conform to snake_case naming style (invalid-name)
+pose2car.py:23:8: C0103: Attribute name "z" doesn't conform to snake_case naming style (invalid-name)
+pose2car.py:10:0: R0902: Too many instance attributes (13/7) (too-many-instance-attributes)
+pose2car.py:44:4: C0116: Missing function or method docstring (missing-function-docstring)
+pose2car.py:52:8: C0103: Variable name "o" doesn't conform to snake_case naming style (invalid-name)
+pose2car.py:61:8: W0201: Attribute 'd_x' defined outside __init__ (attribute-defined-outside-init)
+pose2car.py:62:8: W0201: Attribute 'd_y' defined outside __init__ (attribute-defined-outside-init)
+pose2car.py:88:0: C0116: Missing function or method docstring (missing-function-docstring)
+
+------------------------------------------------------------------
+Your code has been rated at 7.43/10 (previous run: 5.28/10, +2.15)
+

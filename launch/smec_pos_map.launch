@@ -1,0 +1,16 @@
+<launch>
+  <!-- Launch RViz2 -->
+  <node pkg="rviz2" type="rviz2" name="rviz2"/>
+
+  <!-- Launch nav2_bringup with localization_launch.py -->
+  <include file="$(find nav2_bringup)/launch/localization_launch.py">
+    <arg name="map" value="/home/af/smec_ws/src/pose2car/model_stadt3.yaml"/>
+  </include>
+
+  <!-- Launch pose2car -->
+  <node pkg="pose2car" type="posetocar" name="pose2car"/>
+</launch>
+
+
+
+
